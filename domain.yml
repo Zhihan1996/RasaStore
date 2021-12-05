@@ -1,0 +1,19 @@
+intents:
+  - greet
+  - look_for_new_product
+  - look_for_on_sale
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text: "Hello, welcome to our store. Are you looking for new products or products on sale?"
+  utter_new_product:
+    - text: "This white shirt is our new product."
+  utter_on_sale:
+    - text: "This red shirt is on sale. It only takes 5 dollars."
+  utter_iamabot:
+  - text: "I am a bot, powered by Zhihan."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
